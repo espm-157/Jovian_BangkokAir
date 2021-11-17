@@ -8,6 +8,20 @@ Please prepare a short proposal on your final project idea by **Nov 2**. The pro
 - A description of the data required, and how it will be obtained (e.g. URL/DOI to data source)
 - 3 questions / analysis tasks you will perform on the data; in the spirit of the assignments we have been doing.
 
+Project Title: Tracking the Air Pollution in Chiang Mai, Thialand
+
+Description: There are four main sources for the air pollution in Chiang Mai, including traffic, power plants, industrial activities, and agricultural burning. This project aims to use the existing data to analyze, compare, and rank their contributions to the air pollution. 
+
+Name: Jieyuan Kan (Individual Final Project)
+
+Data Source: There is a open source dataset from United Nations Economic and Social Commission for Asia and Pacific. 
+https://github.com/worasom/aqi_thailand2
+
+Questions / Analysis Tasks on the Data:
+1. Perform the analysis on the influences of each factor on the air pollution.
+2. Rank the extent of their influences through high to low.
+3. By how much reduction can we make to make the air pollutin in a healthy level in Chiang Mai.
+
 *You may choose to work with your partner or independently on the final project. Please indicate which clearly in your proposal.*
 
 Replicating results of an existing study and exploring the impact of alternative assumptions in the data preparation, statistical methods chosen etc can provide an excellent template for an analysis (you'll see more of this in units 3 & 4)
