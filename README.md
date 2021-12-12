@@ -1,10 +1,9 @@
 
-*add GitHub Actions badge here*
+[![Reproducibility](https://github.com/espm-157/final-individual-jovkan/actions/workflows/main.yml/badge.svg)](https://github.com/espm-157/final-individual-jovkan/actions/workflows/main.yml)
 
 ## Team Members:
 
-- full name, github handle
-- full name, github handle
+Jieyuan Kan
 
 This repository is a template for your team's repository.
 
