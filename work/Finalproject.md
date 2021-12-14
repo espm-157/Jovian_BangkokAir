@@ -5,15 +5,37 @@ Jieyuan Kan
 
 ``` r
 library(tidyverse)
+```
+
+    ## Warning: package 'tidyverse' was built under R version 4.0.4
+
+    ## Warning: package 'ggplot2' was built under R version 4.0.5
+
+    ## Warning: package 'tibble' was built under R version 4.0.5
+
+    ## Warning: package 'tidyr' was built under R version 4.0.5
+
+    ## Warning: package 'readr' was built under R version 4.0.5
+
+    ## Warning: package 'dplyr' was built under R version 4.0.5
+
+    ## Warning: package 'forcats' was built under R version 4.0.3
+
+``` r
 library(ggplot2)
 library(dplyr)
 library(httr)
 library(jsonlite)
+```
+
+    ## Warning: package 'jsonlite' was built under R version 4.0.3
+
+``` r
 library(tidyr)
 library(purrr)
 ```
 
-#Project Description
+\#Project Description
 
 Bangkok is the capital, most populous city and chief port of Thailand.
 The Thailand Meteorological Department divides the climate into three
@@ -25,7 +47,7 @@ are behind this pollution? Are there any environmental justice problems
 along the way? I decide to use R and data to probe into the air
 pollution in Bangkok.
 
-#Description on the Data Sources
+\#Description on the Data Sources
 
 1.  Air Quality Data (.csv)
 
@@ -54,12 +76,12 @@ Weather data is from the platform of Open Weather Map
 (openweathermap.org), a non-profit and educational organization in the
 UK. By using education email, I can access the historical data back to
 2019 (Original membership price is $1500/month, Berkeley education email
-really saves me a lot!!). The index I am going to use for the analysis
+really saves me a lot\!\!). The index I am going to use for the analysis
 includes wind speed, humidity, and precipitation. They are usually
 reported by scientists that have influences on the air pollution. I will
 use my API key to call this data.
 
-#Research Questions and Analysis Tasks
+\#Research Questions and Analysis Tasks
 
 1.  Which season has an overall higher pollution in 2019? How can you
     explain that? For 2020, under the COVID-19 pandemic and quarantine
@@ -79,7 +101,7 @@ use my API key to call this data.
     weather. Use the natural data to illustrate how they will also
     influence the Bangkok’s air quality.
 
-#Work
+\#Work
 
 First of all, I import the the air quality data into R.
 
@@ -315,7 +337,7 @@ bangkok <- st_read("..work/shapefiles/ds/")
 ```
 
     ## Reading layer `district' from data source 
-    ##   `/home/jovyan/ESPM_157/FinalProject/work/..work/shapefiles/ds' 
+    ##   `/home/runner/_work/final-individual-jovkan/final-individual-jovkan/work/..work/shapefiles/ds' 
     ##   using driver `ESRI Shapefile'
     ## Simple feature collection with 50 features and 14 fields
     ## Geometry type: POLYGON
@@ -328,21 +350,22 @@ waste <- st_read("..work/shapefiles/bangkok_waste/")
 ```
 
     ## Warning in CPL_read_ogr(dsn, layer, query, as.character(options),
-    ## quiet, : GDAL Error 4: Unable to open /home/jovyan/
-    ## ESPM_157/FinalProject/work/..work/shapefiles/bangkok_waste/
-    ## thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr.shx or /
-    ## home/jovyan/ESPM_157/FinalProject/work/..work/shapefiles/bangkok_waste/
+    ## quiet, : GDAL Error 4: Unable to open /home/runner/_work/final-individual-
+    ## jovkan/final-individual-jovkan/work/..work/shapefiles/bangkok_waste/
+    ## thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr.shx
+    ## or /home/runner/_work/final-individual-jovkan/final-
+    ## individual-jovkan/work/..work/shapefiles/bangkok_waste/
     ## thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr.SHX. Set
     ## SHAPE_RESTORE_SHX config option to YES to restore or create it.
 
-    ## Warning in CPL_read_ogr(dsn, layer, query, as.character(options),
-    ## quiet, : GDAL Error 4: Failed to open file /home/jovyan/
-    ## ESPM_157/FinalProject/work/..work/shapefiles/bangkok_waste/
+    ## Warning in CPL_read_ogr(dsn, layer, query, as.character(options), quiet, :
+    ## GDAL Error 4: Failed to open file /home/runner/_work/final-individual-
+    ## jovkan/final-individual-jovkan/work/..work/shapefiles/bangkok_waste/
     ## thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr.shp.It may be
     ## corrupt or read-only file accessed in update mode.
 
     ## Reading layer `waste_center' from data source 
-    ##   `/home/jovyan/ESPM_157/FinalProject/work/..work/shapefiles/bangkok_waste' 
+    ##   `/home/runner/_work/final-individual-jovkan/final-individual-jovkan/work/..work/shapefiles/bangkok_waste' 
     ##   using driver `ESRI Shapefile'
     ## Simple feature collection with 3 features and 5 fields
     ## Geometry type: POINT
@@ -355,7 +378,7 @@ bw <- st_read("..work/shapefiles/bikeway/")
 ```
 
     ## Reading layer `bike_way' from data source 
-    ##   `/home/jovyan/ESPM_157/FinalProject/work/..work/shapefiles/bikeway' 
+    ##   `/home/runner/_work/final-individual-jovkan/final-individual-jovkan/work/..work/shapefiles/bikeway' 
     ##   using driver `ESRI Shapefile'
     ## Simple feature collection with 31 features and 5 fields
     ## Geometry type: MULTILINESTRING
@@ -368,7 +391,7 @@ gs <- st_read("..work/shapefiles/gas/")
 ```
 
     ## Reading layer `oil_service' from data source 
-    ##   `/home/jovyan/ESPM_157/FinalProject/work/..work/shapefiles/gas' 
+    ##   `/home/runner/_work/final-individual-jovkan/final-individual-jovkan/work/..work/shapefiles/gas' 
     ##   using driver `ESRI Shapefile'
     ## Simple feature collection with 513 features and 6 fields
     ## Geometry type: POINT
@@ -670,7 +693,7 @@ toxic air like NO2, so they are more impacted by the humidity and
 precipitation level. In summary, the weather conditions are also one of
 the factors which influence the air pollution level in Bangkok.
 
-#Summary
+\#Summary
 
 From this project, I successfully explore the factors behind the air
 pollution in Bangkok. I have seen the socio-economic factors like the
@@ -685,7 +708,7 @@ solve the local air quality and environment injustice issue in a
 scientific and fair way, such as applying United Nations’ 17 Sustainable
 Development Goals into their daily work.
 
-#Reference:
+\#Reference:
 
 \[1\]. Winn, Patrick. “Bangkok: A City of Glitz, A City of Desperation.”
 World. npr. 2013.
