@@ -3,7 +3,7 @@ title: "Researching the Factors Behind the Pollution in Bangkok, Thailand"
 author: "Jieyuan Kan"
 date: "12/1/2021"
 maketitle: true
-output: pdf_document
+output: github_document
 ---
 
 ```{r message=FALSE}
