@@ -1,0 +1,27 @@
+[general] 
+creator=R package 'raster' 
+created= 2011-11-12 14:42:04 
+[georeference] 
+nrows= 1812 
+ncols= 1020 
+xmin= 97.2 
+ymin= 5.5 
+xmax= 105.7 
+ymax= 20.6 
+projection= +proj=longlat +ellps=WGS84 
+[data] 
+datatype= INT2S 
+byteorder= little 
+nbands= 1 
+bandorder= BIL 
+categorical= FALSE 
+minvalue= -32 
+maxvalue= 2700 
+nodatavalue= -9999 
+[legend] 
+legendtype=  
+values=  
+color=  
+[description] 
+layername= THA_alt 
+history=  

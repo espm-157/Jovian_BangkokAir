@@ -1,0 +1,1 @@
+http://203.155.220.179:8090/geoserver/BMAWMS/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=BMAWMS:bma_new_zone&outputFormat=SHAPE-ZIP&format_options=charset:cp874

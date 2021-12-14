@@ -1,0 +1,86 @@
+{
+  "author": {
+    "email": "n_tchanan@bangkok.go.th",
+    "name": "กองสารสนเทศภูมิศาสตร์ สำนักยุทธศาสตร์และประเมินผล"
+  },
+  "description": "ชั้นข้อมูลที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร",
+  "keywords": [
+    "กรุงเทพมหานคร",
+    "ขยะ",
+    "ที่ตั้ง",
+    "ศูนย์กำจัดขยะ"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "waste_center",
+  "resources": [
+    {
+      "description": "ชั้นข้อมูลที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (Shapefile)",
+      "format": "SHP",
+      "name": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr",
+      "path": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr.shp",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/0199eb7f-6726-4947-8f98-e11652e82ae1/resource/090039e1-d33c-4341-a99a-cabe6916926d/download/waste_center.zip",
+          "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร"
+        }
+      ],
+      "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร"
+    },
+    {
+      "description": "ชั้นข้อมูลที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (KML)",
+      "format": "XML",
+      "name": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-kml",
+      "path": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-kml.xml",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/0199eb7f-6726-4947-8f98-e11652e82ae1/resource/fd1bc882-24a0-4045-943c-34735eda3374/download/waste_center.kml",
+          "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (KML)"
+        }
+      ],
+      "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (KML)"
+    },
+    {
+      "description": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (GML)",
+      "format": "XML",
+      "name": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-gml",
+      "path": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-gml.xml",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/0199eb7f-6726-4947-8f98-e11652e82ae1/resource/fe1370cf-b124-4afd-a21a-144b0ad405ed/download/waste_center.gml",
+          "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (GML)"
+        }
+      ],
+      "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (GML)"
+    },
+    {
+      "description": "ชั้นข้อมูลที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (JSON)",
+      "format": "JSON",
+      "name": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-json",
+      "path": "thiitangsuunykamcchadkhyaainekhtphuuenthiikrungethphmhaankhr-.json",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/0199eb7f-6726-4947-8f98-e11652e82ae1/resource/9c1fa44e-e43d-48a7-a31d-fc915c0445c8/download/waste_center.json",
+          "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (JSON)"
+        }
+      ],
+      "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร (JSON)"
+    },
+    {
+      "description": "พจนานุกรมข้อมูล",
+      "format": "PDF",
+      "name": "phcchnaanukrmkh-muul",
+      "path": "phcchnaanukrmkh-muul.pdf",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/0199eb7f-6726-4947-8f98-e11652e82ae1/resource/8ede9e8b-ae8b-4a63-8233-5f2e203ec26d/download/waste_center.pdf",
+          "title": "พจนานุกรมข้อมูล"
+        }
+      ],
+      "title": "พจนานุกรมข้อมูล"
+    }
+  ],
+  "title": "ที่ตั้งศูนย์กำจัดขยะในเขตพื้นที่กรุงเทพมหานคร"
+}

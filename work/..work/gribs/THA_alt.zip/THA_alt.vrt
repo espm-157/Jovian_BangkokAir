@@ -1,0 +1,15 @@
+<VRTDataset rasterXSize="1020" rasterYSize="1812">
+<GeoTransform>97.2, 0.008333333, 0, 20.6, 0, -0.008333333</GeoTransform>
+<SRS>+proj=longlat +ellps=WGS84</SRS>
+	<VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+		<Description>THA_alt</Description>
+		<SourceFilename relativetoVRT="1">THA_alt.gri</SourceFilename>
+		<ImageOffset>0</ImageOffset>
+		<PixelOffset>2</PixelOffset>
+		<LineOffset>2040</LineOffset>
+		<ByteOrder>LSB</ByteOrder>
+		<NoDataValue>-9999</NoDataValue>
+		<Offset>0</Offset>
+		<Scale>1</Scale>
+	</VRTRasterBand>
+</VRTDataset>
